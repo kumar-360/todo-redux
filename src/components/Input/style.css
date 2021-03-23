@@ -1,0 +1,52 @@
+.input{
+    height: 50px;
+    width: 80%;
+    border-radius: 12px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+input{
+    background: none;
+    border: none;
+    margin-left: 12px;
+    flex: 1;
+}
+input:focus{
+    outline: none;
+}
+button{
+    margin-right: 8px;
+    background-color: rgb(214,213,213);
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+}
+button:focus{
+    outline: none;
+}
+.app-todoContainer{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.todoItem{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    margin: 6px 4px;
+    height: 40px;
+    border-radius: 12px;
+}
+.todoItem>p{
+    flex:1;
+}
+.todoItem-done{
+    text-decoration: line-through;
+}
